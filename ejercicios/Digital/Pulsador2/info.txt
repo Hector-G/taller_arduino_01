@@ -1,0 +1,16 @@
+pulsador2
+
+Pulsa el botón A para encender los LEDs y
+pulsa el botón B para apagarlos
+
+El código del if sólo se ejecuta si se cumple 
+la condición.
+
+El pulsador da una lectura LOW cuando no se pulsa y
+HIG cuando lo estamos pulsando.
+
+Ejercicio para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

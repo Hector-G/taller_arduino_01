@@ -1,0 +1,30 @@
+Theremin
+
+Mide el valor del sensor de luz (LDR) y genera un sonido
+en el zumbador piezoeléctrico. El sonido es más agudo 
+cuanto mayor sea la medida del sensor.
+
+Mide el valor del sensor por el pin A0.
+Luego muestra la medida por consola.
+
+Utiliza el Monitor Serie para visualizar la información.
+
+El rango de entrada analógica es 0 - 1023
+Posiblemente tengas que calibrar el sensor.
+
+Utiliza map() para ajustar el rango de salida, en este 
+caso será la frecuencia a la que suene el piezo.
+El oído humano es capaz de detectar sonidos entre
+20 - 20.000 Hz aproximadamente, dependiendo de cada
+persona. En el ejemplo hemos puesto el rango entre 20
+y 2000, ya que las frecuencias altas son bastante 
+molestas.
+
+Para hacer sonar el piezo utilizamos un pin PWM con
+tone(PIN,FRECUENCIA);
+
+Ejemplo para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

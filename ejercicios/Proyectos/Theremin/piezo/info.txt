@@ -1,0 +1,20 @@
+piezo
+
+Utiliza un buzzer piezoeléctrico para emitir un
+pitido intermitente.
+
+tone utiliza PWM para generar el sonido
+  tone(PIN,frecuencia)
+se puede parar con noTone(PIN)
+
+Prueba a jugar con la frecuencia y los delay.
+Incluso puedes hacer melodías.
+
+¡En la carpeta /melodias/ tienes algunos
+ejemplos muy chulos!
+
+Ejemplo para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

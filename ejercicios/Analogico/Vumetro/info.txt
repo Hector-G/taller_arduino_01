@@ -1,0 +1,19 @@
+vumetro
+
+Mide el valor del potenciómetro por el pin A0.
+Enciende uno, dos, tres o cuatro LEDs según la potencia medida. 
+
+El código dentro de la estructura if() sólo se ejecuta si
+se cumple la condición.
+Si no se cumple, se ejecuta else().
+
+Fíjate cómo se encadenan else if() para comprobar varias
+condiciones.
+
+Prueba a modificar los condicionales.
+
+Ejercicio para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

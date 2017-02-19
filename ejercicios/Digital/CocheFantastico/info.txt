@@ -1,0 +1,13 @@
+CocheFantastico
+
+Enciende y apaga cuatro LEDs en secuencia, emulando el 
+mítico coche de la serie de los 80.
+
+Prueba a modificar el tiempo de espera
+o a alterar la secuencia como más te guste.
+
+Ejercicio para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

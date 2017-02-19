@@ -1,0 +1,13 @@
+PWMauto
+*NOTA.sólo usamos el LED conectado al PIN 10.
+
+Regula la luz de un LED de forma automática.
+
+Aplicamos analogWrite para encender el LED.
+Usamos bucles for para ir variando gradualmente el valor.
+
+Ejercicio para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

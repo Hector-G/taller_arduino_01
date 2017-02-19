@@ -1,0 +1,20 @@
+potenciometro
+*NOTA. Los LEDs del diagrama no se utilizan en este ejemplo.
+
+Mide el valor del potenciómetro por el pin A0.
+Luego muestra la medida por consola.
+
+9600 es el baudrate o velocidad de datos. Debe coincidir en ambos dispositivos
+(Arduino y ordenador) para que se puedan comunicar.
+
+Utiliza el Monitor Serie para visualizar la información.
+
+Si queremos escribir texto lo ponemos con comillas " ".
+
+Prueba a cambiar el mensaje mostrado por la consola.
+
+Ejemplo para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

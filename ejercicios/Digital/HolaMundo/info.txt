@@ -1,0 +1,11 @@
+HolaMundo
+
+Hace parpadear un LED.
+Prueba a modificar los parámetros como por ejemplo,
+el tiempo que está encendido el LED.
+
+Ejemplo para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politènica de València
+2017

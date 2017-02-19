@@ -1,0 +1,16 @@
+pulsador
+*NOTA.sólo usamos el botón y el LED conectado al PIN 13.
+
+Enciende el LED al pulsar el botón.
+
+El código del if se ejecuta si se cumple la condición.
+En caso contrario se ejecuta else.
+
+El pulsador da una lectura LOW cuando no se pulsa y
+HIGH cuando lo estamos pulsando.
+
+Ejemplo para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017

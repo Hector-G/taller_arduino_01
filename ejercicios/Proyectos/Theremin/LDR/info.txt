@@ -1,0 +1,34 @@
+Theremin_LDR
+
+Mide el valor del sensor de luz o LDR y regula la intensidad
+de un LED según la iluminación exterior.
+
+El LDR (Light Dependent Resistor) es una resistencia variable
+con la luz. El código para medirlo es igual que en el ejemplo
+del potenciómetro.
+
+Mide el valor del sensor por el pin A0.
+Luego muestra la medida por consola.
+
+Utiliza el Monitor Serie para visualizar la información.
+
+El rango de entrada analógica es 0 - 1023
+El rango de salida analógica (PWM) es 0 -255
+
+Como el rango de entrada es mayor que el de salida, no podemos
+copiar directamente el valor del sensor en el LED, tenemos que
+escalarlo. Para ello podemos calcular una regla de tres simple,
+o de forma más cómoda, emplear el método map de Arduino:
+
+valorDeSalida = map(valorDeEntrada, minEntrada, MAXEntrada, minSalida, MAXSalida);
+
+Si pruebas el montaje, te habrás dado cuenta que el rango del
+sensor nunca alcanza el máximo o el mínimo de la entrada 
+analógica. Utiliza map para calibrar el sensor, ajustando los
+valores mínimo y máximo.
+
+Ejemplo para el taller Introducción a Arduino.
+Héctor Guiñón - Robert Vásquez
+Makers UPV
+Universitat Politècnica de València
+2017
