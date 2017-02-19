@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   valorLDR = analogRead(A0);            //Leemos el PIN A0 y lo guardamos en valorPot
-  Serial.println("Valor = " + valorLDR);//Escribimos en la consola
+  Serial.println(valorLDR);             //Escribimos en la consola
   
   valorLED = map(valorLDR,0,1023,0,255);
   
